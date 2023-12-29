@@ -1,0 +1,132 @@
+
+.posts{
+  
+  width:85%;
+  margin: auto;
+  margin-top: 25px;
+  
+  border-radius: 10px;
+  box-shadow: -1px 1px 15px 4px rgba(0,0,0,0.13);
+  -webkit-box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.19); 
+  box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.19);
+}
+
+.postContainer{
+  padding: 10px;
+  
+}
+
+.postElementTop{
+  display: flex;
+  align-items: center;
+}
+.postElementTopLeft{
+  display: flex;
+  align-items: center;
+  text-wrap: nowrap;
+}
+.postUserImage{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 10px;
+  
+}
+
+.postDetails{
+  display: flex;
+  flex-direction: column;
+}
+
+.postUserName{
+  font-weight: 600;
+  font-size: 16px;
+}
+.postDate{
+  font-size: 12px;
+}
+
+
+ .postImage{
+  margin-top:5px;
+  width:100%;
+  max-height: 600px;
+  object-fit: contain;
+ }
+ .postElementItem{
+  width: 100%;
+   
+ }
+ .postElementCenter{
+  width: 100%;
+   
+ }
+
+ .postElementTopRight{
+  width: 100%;
+   align-items: center;
+  display: flex;
+  justify-content:flex-end ;
+  margin-right: 10px;
+ }
+
+ .topPostIcon{
+  margin-left: 10px;
+  cursor: pointer;
+
+ }
+
+ .postItemTitle{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+ }
+
+ .postDate{
+  width:150px;
+  text-wrap: nowrap;
+ }
+  
+ .interactionButtons{
+  
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .interactionButtons button {
+  background-color: transparent;
+  
+  cursor: pointer;
+ }
+
+ .interactionContainer{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+
+ }
+  
+.interactionButtons{
+  margin-top: 5px;
+}
+.interactionCounter{
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.interactionButton{
+  margin-right: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.interactionIcon{
+  font-size: 18px;
+}
+.liked {
+  color: #ff1100;  
+}

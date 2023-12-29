@@ -1,0 +1,85 @@
+.sidebar{
+  flex:1.5;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  scrollbar-width: 5px;
+  position: sticky;
+  top: 50px;
+  
+}
+::-webkit-scrollbar {
+  background-color: rgb(225, 225, 225);
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(172, 172, 172);
+}
+
+.sidemenuContainer{
+  
+  padding: 15px;
+}
+
+.sidemenuList{
+  list-style: none;
+}
+
+.sidemenuList{
+  padding: 0;
+  margin: 0;
+}
+.sidemenuItem{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+   
+  cursor: pointer;
+  height: 40px;
+  border-radius: 10px;
+  
+}
+ .sidemenuList li:hover{
+  background-color: rgb(172, 172, 172);;
+ }
+
+.sidemenuItemText{
+  margin-left: 15px;
+}
+
+.sidemenuIcon{
+  font-size: 35px;
+
+}
+.sidebarmenuButton{
+  
+  border: none;
+  width: 150px;
+  height: 35px;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ font-size: 16px;
+  font-weight: 500;
+   background-color: transparent;
+   cursor: pointer;
+   padding: 0;
+}
+.friendImage{
+ 
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius:50%;
+  margin-right: 10px;
+}
+
+.sidebarFriend{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-left: 0;
+}
+.sidebarmenuLine{
+  margin: 15px 0;
+}

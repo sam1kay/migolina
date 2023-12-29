@@ -1,0 +1,18 @@
+ .onlineFriend{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+ }
+
+ .onlineImageContainer{
+  position: relative;
+ }
+
+ .onlineIcon{
+  position: absolute;
+  top:-8px;
+  left: 18px;
+  color: rgb(0, 223, 0);
+  scale: 0.6;
+  border: black;
+ }

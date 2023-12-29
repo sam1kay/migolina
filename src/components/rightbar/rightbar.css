@@ -1,0 +1,86 @@
+.rightbar{
+  flex:2;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+   
+}
+.eventsContainer{
+  background-color: rgb(243, 243, 243);
+   height: 300px;
+   overflow-y: scroll;
+   margin-top: 25px;
+   margin-right: 10px;
+   border-radius: 10px;
+ }
+
+
+
+ .rightbarLine{
+  margin-top: 5px;
+ }
+ 
+ 
+ .rightcardTitle{
+  font-size: 18px;
+  color: rgb(58, 58, 58);
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.myFriends{
+
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-weight: 600px;
+ 
+}
+ 
+
+.myFriends img {
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+ 
+  
+
+}
+
+.myFriends li{
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  align-items: flex-start;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+.myFriends ul{
+  margin-top: 15px;
+  padding: 0;
+  padding-right: 25px;
+
+ 
+  
+}
+
+.infoCard{
+
+  margin: 25px 0;
+  
+}
+
+.infoItem{
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  
+}
+
+
+.infoTitle{
+  margin: 25px 0;
+}

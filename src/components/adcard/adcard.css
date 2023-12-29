@@ -1,0 +1,13 @@
+.adImage{
+  width: 250px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.adCard{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}

@@ -1,0 +1,23 @@
+
+
+
+
+.eventImage{
+  margin-left: 25px;
+  margin-top: 15px;
+  width: 140px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.eventCard{
+  display: flex;
+  align-items: center;
+}
+.eventDetail{
+  font-weight: 600;
+  text-wrap: wrap;
+  width: 250px;
+  margin-left: 10px;
+}

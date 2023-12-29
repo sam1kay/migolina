@@ -1,0 +1,104 @@
+.logoImage{
+  width: 200px;
+  margin-bottom: 20px;
+ }
+
+ .registerPage{
+background-color: rgb(245, 245, 245);
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+ }
+ .registerContainer{
+  
+  display: flex;
+align-items: center;
+ }
+.loginLeft{
+  
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+   font-weight: bolder;
+  width: 450px;
+  height: 450px;
+ 
+  
+}
+
+.loginDescription{
+  text-transform:uppercase;
+  font-size: 16px ;
+  margin-top: 15px;
+
+}
+
+.registerRight{
+  box-shadow: -1px 1px 15px 4px rgba(0,0,0,0.13);
+  -webkit-box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.19); 
+box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.19);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 450px;
+  height: 450px;
+  border-radius:  15px;
+  background-color: #1877F2;
+  
+}
+.registerInp{
+  
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+.registerInp:focus {
+  outline: none;
+}
+
+.registerCard{
+  display: flex;
+  flex-direction: column; 
+  color: white;
+
+}
+
+.registerInp{
+  margin: 10px 0;
+  padding-left: 5px;
+  width: 400px;
+}
+
+ 
+ 
+
+.registerBtn{
+  width: 405px;
+  height: 50px;
+  background-color:#F2D218;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.loginButton{
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin: 15px 0;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #18E9F2;
+  font-weight: 600;
+ 
+}
